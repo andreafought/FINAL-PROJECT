@@ -10,20 +10,24 @@
 
 **1. Introduction**
 
+Benford’s Law, also known as the Law of First Digits, named after physicist Frank Benford, who worked on the theory in 1938. The mathematical theory is based on the findings that the probabilities of first digits are not uniformly distributed so that each of the digits from 1 to 9 is equally likely to appear. Instead, the first digits are arranged in such a way that the digit 1 is the most frequent, followed by 2, 3, and so in a successively decreasing manner down to 9. More precisely, the law gives a prediction of the frequency of leading digits using base-10 logarithms that predicts specific frequencies which decrease as the digits increase from 1 to 9. Attached below in a graph and a table which demonstrate the distribution of Benford's Law (figure i and figure ii). 
+
+Figure i: 
+Figure ii:
+Insert Graph and table 
+
+Benford’s Law can recognize the probabilities of highly likely or highly unlikely frequencies of numbers in a large numeric data set. Those who are not aware of this theory and intentionally manipulate numbers (e.g., in a fraud) are susceptible to getting caught by the application of Benford’s Law. In the real world, Benford's Law can be applied to financial statements, 
+The application of image tampering will be furthur explored during this project.
 
 **2. Question and Hypothesis**
 
-The question this project wants to predict if images have been tampered based if their DCT coefficients follow Benford's Law. 
+Question: Can the tampering of images be predicted based on their DCT coefficients following Benford's Law. 
 
-H0 (null hypothesis): A single hypothesis, e.g. an instance or specific candidate model that maps inputs to outputs and can be evaluated and used to make predictions.
-H1 (hypothesis): A space of possible hypotheses for mapping inputs to outputs that can be searched, often constrained by the choice of the framing of the problem, the choice of model and the choice of model configuration.
-
+H0 (null hypothesis): The tampering of an image can be predicted with Benford's law. 
+H1 (alternate hypothesis): The tampering of an image cannot be predicted with Benford's law. 
 
 **3. Benford's Law**
 
-Benford’s Law, also known as the Law of First Digits, is based in the finding that the probabilities of first digits are not uniformly distributed so that each of the digits from 1 to 9 is equally likely to appear. Instead, the first digits are arranged in such a way that the digit “1” is the most frequent, followed by “2”, “3”, and so in a successively decreasing manner down to “9”. Attached below in a graph and a table which demonstrate the distribution of Benford's Law. More precisely, the law gives a prediction of the frequency of leading digits using base-10 logarithms that predicts specific frequencies which decrease as the digits increase from 1 to 9. 
-
-Insert Graph and table 
 
 
 **4. Workflow**
