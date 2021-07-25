@@ -9,7 +9,12 @@
 
 **1. Introduction**
 
-Benford’s Law, also known as the Law of First Digits, named after physicist Frank Benford, who worked on the theory in 1938. The mathematical theory is based on the findings that the probabilities of first digits are not uniformly distributed so that each of the digits from 1 to 9 is equally likely to appear. Instead, the first digits are arranged in such a way that the digit 1 is the most frequent, followed by 2, 3, and so in a successively decreasing manner down to 9. More precisely, the law gives a prediction of the frequency of leading digits using base-10 logarithms that predicts specific frequencies which decrease as the digits increase from 1 to 9. Attached below in a graph and a table which demonstrate the distribution of Benford's Law (figure i and figure ii). 
+Benford’s Law, also known as the Law of First Digits, named after physicist Frank Benford, who worked on the theory in 1938. The mathematical theory is based on the findings that the probabilities of first digits are not uniformly distributed so that each of the digits from 1 to 9 is equally likely to appear. Instead, the first digits are arranged in such a way that the digit 1 is the most frequent, followed by 2, 3, and so in a successively decreasing manner down to 9. More precisely, the law gives a prediction of the frequency of leading digits using base-10 logarithms that predicts specific frequencies which decrease as the digits increase from 1 to 9. The formula of a certain digit "d" being the first digit of a number, given by the following equation. Where, P (D = d) is the probability that the first digit is equal to d, and d is an integer ranging from 1 to 9. 
+
+<img width="555" alt="Formula_Benford" src="https://user-images.githubusercontent.com/83591280/126907220-af2953b7-5261-47d3-bcb1-a505c866e818.png">
+
+
+Attached below in a graph and a table which demonstrates the distribution of Benford's Law (figure i and figure ii):
 
 Figure i: 
 Figure ii:
