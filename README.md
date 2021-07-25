@@ -6,6 +6,7 @@ Table of Contents:
 3. Benford's Law
 4. Workflow
 5. Analysis and Findings
+6. References
 
 1. Introduction
 
