@@ -1,3 +1,4 @@
+<img width="648" alt="Screen Shot 2021-07-26 at 10 46 26 PM" src="https://user-images.githubusercontent.com/83591280/127056876-662480dc-e082-4a73-bfe9-d767590d3037.png">
 # **Applying Benfords's Law to Image Tampering**
 
 **Table of Contents:** 
@@ -16,8 +17,10 @@ Benford’s Law, also known as the Law of First Digits, named after physicist Fr
 Attached below in a graph and a table which demonstrates the distribution of Benford's Law (figure i and figure ii):
 
 Figure i: 
+<img width="648" alt="Screen Shot 2021-07-26 at 10 46 26 PM" src="https://user-images.githubusercontent.com/83591280/127056892-0d288e27-b65f-41c7-8049-907249f1c23e.png">
 
 Figure ii:
+
 
 Benford’s Law can recognize the probabilities of highly likely or highly unlikely frequencies of numbers in a large numeric data set. Those who are not aware of this theory and intentionally manipulate numbers (e.g., in a fraud) are susceptible to getting caught by the application of Benford’s Law. In the real world, Benford's Law can be applied to countless data sets such as financial statements, city populations, fibonacci series, elections, music and even in images. This website tests Benford's law in real world scenarios. https://testingbenfordslaw.com/population-of-us-cities-2009. The application of Benford's Law playing a role in the prediction of image tampering will be furthur explored during this project.
 
