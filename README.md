@@ -1,4 +1,3 @@
-<img width="648" alt="Screen Shot 2021-07-26 at 10 46 26 PM" src="https://user-images.githubusercontent.com/83591280/127056876-662480dc-e082-4a73-bfe9-d767590d3037.png">
 # **Applying Benfords's Law to Image Tampering**
 
 **Table of Contents:** 
@@ -14,13 +13,9 @@ Benford’s Law, also known as the Law of First Digits, named after physicist Fr
 
 <div style="text-align:center"><img width="555" alt="Formula_Benford" src="https://user-images.githubusercontent.com/83591280/126907220-af2953b7-5261-47d3-bcb1-a505c866e818.png"></div>
 
-Attached below in a graph and a table which demonstrates the distribution of Benford's Law (figure i and figure ii):
+Attached below in a graph and a table which demonstrates the distribution of Benford's Law (figure i):
 
-Figure i: 
 <img width="648" alt="Screen Shot 2021-07-26 at 10 46 26 PM" src="https://user-images.githubusercontent.com/83591280/127056892-0d288e27-b65f-41c7-8049-907249f1c23e.png">
-
-Figure ii:
-
 
 Benford’s Law can recognize the probabilities of highly likely or highly unlikely frequencies of numbers in a large numeric data set. Those who are not aware of this theory and intentionally manipulate numbers (e.g., in a fraud) are susceptible to getting caught by the application of Benford’s Law. In the real world, Benford's Law can be applied to countless data sets such as financial statements, city populations, fibonacci series, elections, music and even in images. This website tests Benford's law in real world scenarios. https://testingbenfordslaw.com/population-of-us-cities-2009. The application of Benford's Law playing a role in the prediction of image tampering will be furthur explored during this project.
 
@@ -35,7 +30,7 @@ H1 (alternate hypothesis): The tampering of an image cannot be predicted with Be
 
 **4. Workflow**
 
-This project was tracked and monitored with a trello board (attached below). The process started with finding a topic and a database that would be able to answer my questions about Benfords's Law and its applications to the real world. The database MICC-F220 was used for this project which is composed by 220 images; 110 are tampered and 110 originals. This dataset was made with the objective of being applied to machine learning programs to have a clear distintion of tampered and not tampered images, and therefore is adequate for this model. A extensive code was created to extract the DCT coefficients of each image and calculate the frequency of distribution of first digits. A dataframe was created in python with the image id, image dataset, frequencies of first digit distribution, and if it was tampered or not. The dataframe was wrangled and explored within python, and then a decision tree machine leraning model was applied to predict the tampering of future images. 
+This project was tracked and monitored with a trello board (attached below). The process started with finding a topic and a database that would be able to answer my questions about Benfords's Law and its applications to the real world. The database MICC-F220 was used for this project which is composed by 220 images; 110 are tampered and 110 originals (Amerini et al., 2011). This dataset was made with the objective of being applied to machine learning programs to have a clear distintion of tampered and not tampered images, and therefore is adequate for this model. A extensive code was created to extract the DCT coefficients of each image and calculate the frequency of distribution of first digits. In python, the DCT was only able to be extracted if the dimension of the image was an even number, and for that reason a code was execited to filter on the images with even numbers which reduced the dataset. A dataframe was created in python with the image id, image dataset, frequencies of first digit distribution, and if it was tampered or not. The dataframe was wrangled and explored within python, and then a decision tree machine learning model was applied to predict the tampering of future images. 
 
 Trello board: https://trello.com/b/UodgngIy/ironhack-final-project
 Dataset of images: http://www.micc.unifi.it/downloads/MICC-F220.zip
@@ -46,5 +41,5 @@ Dataset of images: http://www.micc.unifi.it/downloads/MICC-F220.zip
 
 **6. References and Links**
 
-dataset:  I. Amerini, L. Ballan, R. Caldelli, A. Del Bimbo, G. Serra. “A SIFT-based forensic method for copy-move attack detection and transformation recovery”, IEEE Transactions on Information Forensics and Security, vol. 6, issue 3, pp. 1099-1110, 2011. 
+  I. Amerini, L. Ballan, R. Caldelli, A. Del Bimbo, G. Serra. “A SIFT-based forensic method for copy-move attack detection and transformation recovery”, IEEE Transactions on Information Forensics and Security, vol. 6, issue 3, pp. 1099-1110, 2011. 
 
