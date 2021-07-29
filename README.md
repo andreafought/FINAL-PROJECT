@@ -34,11 +34,13 @@ H1 (alternate hypothesis): The tampering of an image cannot be predicted with Be
 
 **4. Workflow**
 
-This project was tracked and monitored with a trello board. The process started with finding a topic and a database that would be able to answer my questions about Benfords's Law and its applications to the real world. The database MICC-F220 was used for this project which is composed by 220 images; 110 are tampered and 110 originals (Amerini et al., 2011). This dataset was made with the objective of being applied to machine learning programs to have a clear distintion of tampered and not tampered images, and therefore is adequate for this model. A extensive code was created to extract the DCT coefficients of each image and calculate the frequency of distribution of first digits. In python, the DCT was only able to be extracted if the dimension of the image was an even number, and for that reason a code was execited to filter on the images with even numbers which reduced the dataset. A dataframe was created in python with the image id, image dataset, frequencies of first digit distribution, and if it was tampered or not. The dataframe was wrangled and explored within python, and then a decision tree machine learning model was applied to predict the tampering of future images. 
+This project was tracked and monitored with a trello board. The process started with finding a topic and a database that would be able to answer my questions about Benfords's Law and its applications to the real world. The database MICC-F220 was used for this project which is composed by 220 images; 110 are tampered and 110 originals (Amerini et al., 2011). This dataset was made with the objective of being applied to machine learning programs to have a clear distintion of tampered and not tampered images, and therefore is adequate for this model. A extensive code was created by Thomas Burton to extract the DCT coefficients of each image and calculate the frequency of distribution of first digits. In python, the DCT was only able to be extracted if the dimension of the image was an even number, and for that reason a code was execited to filter on the images with even numbers which reduced the dataset. A dataframe was created in python with the image id, image dataset, frequencies of first digit distribution, and if it was tampered or not. The dataframe was wrangled and explored within python, and then a decision tree machine learning model was applied to predict the tampering of future images. 
 
 Trello board: https://trello.com/b/UodgngIy/ironhack-final-project
 
 Dataset of images: http://www.micc.unifi.it/downloads/MICC-F220.zip
+
+DCT code: https://www.kaggle.com/tbourton/benford-s-law-for-image-tampering
 
 **5. Analysis and Findings**
 
